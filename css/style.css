@@ -20,7 +20,14 @@
 {height: 100%;
 	padding-left: 50px;
 }
-
+.mobile-menu
+{
+	display: none;
+}
+.mobile
+{
+	display: none;
+}
 .header-left-right-part 
 {height: 100%;
 	padding-top: 5px;
@@ -33,12 +40,23 @@
 	text-align: center;
 	padding-right: 5px;
 }
+
 .header-left-right-part ul li a
 {
 	font-size: 12px;
 text-decoration: none;
 color: black;
 }
+.mobile-menu ul li a
+{ padding-top: 5px;
+	display: block;
+	background-color: grey;
+	font-size: 12px;
+text-decoration: none;
+width: 100%;
+color: black;
+}
+
 .header-left-right-part ul li a:hover
 {
 color: red;
@@ -145,7 +163,7 @@ float: left;
 	width: 50%;
 }
 .about-section
-{ clear: both;
+{
 	
 	margin-top: 10px;
 	background-color: #fbf8f6;

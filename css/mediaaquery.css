@@ -26,6 +26,7 @@
 		display: block;
 	
 	}
+	
 	.content-coder-designer
 	{
 		margin: 10px 50px;
@@ -50,5 +51,172 @@
 {
 	
 	margin: 3% 3% 3% 3%; 
+}
+}
+
+/* End of tablet mode*/
+@media only screen and (max-width: 460px)
+{
+	  .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+	.header-left-right-part ul
+	{
+		display: none;
+	}
+	.mobileshow
+	{clear: both;
+		width: 100%;
+		display: block;
+	
+	}
+	.mobileshow1
+	{clear: both;
+	
+		width: 100%;
+		display: block;
+	
+	}
+	.mobileshow2
+	{clear: both;
+		margin-top: 55px;
+		width: 100%;
+
+		display: block;
+	
+	
+	}
+	.mobileshow-single 
+	{
+	margin: 0 auto;
+	overflow: auto;
+	clear: both;
+	margin: 0 40%;
+	
+	
+	}
+	
+	.mobileshow-single1
+	{
+margin: 0 40%;
+	}
+	.mobile
+	{
+	
+		float: right;
+	display: block;	
+	}
+	.header-left-part
+	{
+		padding: 0;
+		margin: 0;
+	}
+		.header-left-left-part
+		{
+			margin-top: 10px;
+		}
+	.mobile img
+	{
+	
+		height: 45px;
+         width: 45px;
+	}
+	.mobile:hover .mobile-menu
+	{
+	width: 370px;
+		
+display: block;
+
+	}
+	.content-coder-designer
+	{
+		margin: 10px 25px;
+	}
+	.about-section
+	{display: flex;
+flex-direction: column;
+	}
+	.about-section-wrapper
+{overflow: auto;
+	margin: 10px;
+}
+
+	.about-slideimage 
+	{order: 1;
+
+	}
+	.about-definition {
+order: 2;
+	}
+.top-image-part
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.teabreakimage
+{
+order: 1;
+}
+.teabreadefinition
+{
+order: 2;
+}
+.creativechaosimage
+{
+order: 3;
+}
+.creativechaosdefinition
+{
+order: 4;
+}
+
+.mobileflex
+{
+	display: flex;
+	flex-direction: column;
+
+}
+	
+	.responsiveruleimage 
+	{
+order: 1;
+	}
+	.responsiveruledefinition
+	{order: 2;
+
+	}
+		.day-officeimage
+	{
+order: 1;
+	}
+	.day-officedefinition
+	{order: 2;
+
+	}
+	.footer-content-middle-right
+	{
+margin-top: 25px;
+	}
+.footer-content-right
+{
+margin-top: 25px;
+}
+.footer-content-middle-left
+{
+margin-top: 25px;
+}
+.footer-content-left
+{
+margin-top: 25px;
 }
 }
